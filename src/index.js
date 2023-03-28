@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/index.css';
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import routes from "./routes";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter(routes);
 
-root.render(
-  <React.StrictMode>
-    <div className={"text text-4xl"}>
-        test
-    </div>
-  </React.StrictMode>
-);
+root.render(<React.StrictMode>
+    <RouterProvider router={router} />
+</React.StrictMode>);

@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
 :root {
     --background-color: #0C0D11;
+    --base-text-color: #C3C3C3;
+    --white: #FFFFFF;
     --primary-color: #7EBAB5;
     --primary-darker-orange: #DC5854;
     --primary-red: #FF6465;
@@ -13,4 +17,9 @@
     --primary-yellow: #FFEC50;
     --primary-skin: #FDCA89;
     --primary-darker-yellow: #F1B559;
+
+    --base-font: 'Roboto Mono', monospace;
+    --base-font-weight: 500;
+    --second-font: 'Inter', sans-serif;
+    --second-font-weight: 400;
 }
