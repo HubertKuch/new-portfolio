@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <div className={"text-red-400 text-4xl"}>
+    <div className={"text text-4xl"}>
         test
     </div>
   </React.StrictMode>
