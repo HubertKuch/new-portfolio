@@ -1,4 +1,6 @@
 @import "root.css";
+@import "layouts.css";
+@import "components.css";
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +14,7 @@ html, body, #root {
     background: var(--background-color);
     font-family: var(--base-font);
     font-weight: var(--base-font-weight);
+    font-size: var(--font-size);
     color: var(--base-text-color);
 }
 
@@ -22,4 +25,13 @@ html, body, #root {
 ::selection, ::-moz-selection {
     background: var(--primary-color);
     color: var(--white);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: var(--heading-letter-spacing);
+    font-weight: var(--heading-font-weight);
 }

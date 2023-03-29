@@ -22,4 +22,13 @@
     --base-font-weight: 500;
     --second-font: 'Inter', sans-serif;
     --second-font-weight: 400;
+
+    --font-size: clamp(1rem, 5vw, 1.5rem);
+    --heading-letter-spacing: 9%;
+    --desktop-letter-spacing: -2%;
+    --mobile-letter-spacing: -2%;
+
+    --h1-font-size: clamp(2rem, 8vw, 64px);
+
+    --heading-font-weight: 700;
 }
