@@ -3,6 +3,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectResources">
+    <resource url="https://fonts.googleapis.com" location="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

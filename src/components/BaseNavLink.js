@@ -1,3 +1,5 @@
 import {NavLink} from "react-router-dom";
 
-export default ({to, children}) => <NavLink end to={to}>{children}</NavLink>;
+const BaseNavLink = ({to, children}) => <NavLink end to={to}>{children}</NavLink>;
+
+export default BaseNavLink;
