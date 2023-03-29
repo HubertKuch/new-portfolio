@@ -1,3 +1,8 @@
+article a {
+    color: var(--primary-red);
+    text-decoration: var(--primary-red) underline;
+}
+
 a[aria-current="page"] {
     color: var(--primary-color);
 }
