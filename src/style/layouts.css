@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     grid-template-columns: 90% minmax(10%, max-content);
-    grid-template-rows: 15% minmax(85%, max-content);
+    grid-template-rows: max-content minmax(85%, max-content);
     grid-template-areas:
             "header     nav"
             "article    nav";
