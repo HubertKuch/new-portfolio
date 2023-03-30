@@ -2,6 +2,7 @@ import HomeView from "./views/HomeView";
 import AboutMeView from "./views/AboutMeView";
 import ProjectsView from "./views/ProjectsView";
 import SkillsView from "./views/SkillsView";
+import HobbiesView from "./views/HobbiesView";
 
 
 /** @type {[{path: string, element: JSX.Element},{path: string, element: JSX.Element},{path: string, element: JSX.Element}]} */
@@ -24,6 +25,11 @@ const routes = [
     {
         path: "/skills-and-technologies",
         element: <SkillsView/>,
+        exactly: true
+    },
+    {
+        path: "/hobbies",
+        element: <HobbiesView/>,
         exactly: true
     },
     {

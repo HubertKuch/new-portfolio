@@ -1,11 +1,15 @@
 import React from "react";
 import Menu from "../components/Menu";
 
-export default function PageLayout({title, children}) {
+export default function PageLayout({
+                                       title,
+                                       customHeaderContent,
+                                       children
+                                   }) {
     return (<>
         <main className={"page-layout"}>
             <header>
-                <h1>{title}</h1>
+                {customHeaderContent ? customHeaderContent : <h1>{title}</h1>}
             </header>
             <article>
                 {children}

@@ -20,3 +20,26 @@ a[aria-current="page"] {
 .technologies-icons img {
     height: 37px;
 }
+
+.photography-container {
+}
+
+.photography-container .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+    gap: 10px;
+    max-height: fit-content;
+}
+
+.photography-container .gallery img {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 17px;
+    height: 100%;
+}
+
+.photography-container .gallery img:nth-child(7) {
+    grid-column: 1/3;
+    height: 100%;
+    width: 100%;
+}
