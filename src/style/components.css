@@ -6,3 +6,17 @@ article a {
 a[aria-current="page"] {
     color: var(--primary-color);
 }
+
+.technologies-icons {
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-template-rows: auto;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.technologies-icons img {
+    height: 37px;
+}
