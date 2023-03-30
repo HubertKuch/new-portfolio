@@ -10,21 +10,21 @@
     overflow-x: hidden;
 }
 
-.page-layout header {
+.page-layout > header {
     grid-row: 1/2;
     grid-column: 1/2;
 }
 
-.page-layout article, .page-layout header {
+.page-layout > article, .page-layout > header {
     padding: 40px;
 }
 
-.page-layout article {
+.page-layout > article {
     grid-row: 2/3;
     grid-column: 1/2;
 }
 
-.page-layout nav {
+.page-layout > nav {
     position: sticky;
     height: 100vh;
     top: 0;

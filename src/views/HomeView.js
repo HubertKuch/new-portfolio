@@ -7,6 +7,6 @@ export default function HomeView() {
         content={"architecture"}/> and with
         back-end technologies. I am based on <ColorizedText content={"Java"}/>, <ColorizedText
         content={"PHP"}/>, <ColorizedText content={"SQL "}/>
-        and <ColorizedText content={"React"}/> but I had started with C++ and Node.
+        and <ColorizedText content={"React"}/> but I had started my journey with C++ and Node.
     </PageLayout>)
 }
