@@ -1,0 +1,108 @@
+form {
+    display: grid;
+    gap: 20px;
+    padding: 20px 0 20px 0;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: 2px solid var(--white);
+    padding-bottom: 4px;
+    background: none;
+    max-width: 100%;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label {
+    position: relative;
+}
+
+label .floating-label {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    transition: all 150ms linear;
+}
+
+label input:focus ~ .floating-label,
+label textarea:focus ~ .floating-label,
+label input:not(:focus):valid ~ .floating-label,
+label textarea:not(:focus):valid ~ .floating-label {
+    top: -10px;
+    left: 0;
+    font-size: 10px;
+    color: var(--primary-green);
+}
+
+label input:not(:focus):invalid ~ .floating-label {
+    color: var(--primary-red);
+    top: -10px;
+    left: 0;
+    font-size: 10px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+form .inputs-section {
+    display: grid;
+    gap: 20px;
+}
+
+.checkboxes-section {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.checkboxes-section label {
+    position: relative;
+    cursor: pointer;
+    --checkbox-width: 31px;
+    padding-left: calc(var(--checkbox-width) + 5px);
+}
+
+.checkboxes-section input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+}
+
+label .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--checkbox-width);
+    height: var(--checkbox-width);
+    background: var(--primary-lighter-blue);
+    border: 2px solid var(--background-color);
+    box-shadow: 2px 2px 0 #000000;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+}
+
+label input[type=checkbox]:checked ~ .checkbox {
+    content: url("data:image/svg+xml; utf8, <svg width='25' height='21' viewBox='0 0 25 21' fill='none' xmlns='http://www.w3.org/2000/svg'> <path fill-rule='evenodd' clip-rule='evenodd' d='M3.73781 6.72267C4.34471 6.11731 5.32165 6.11731 5.92855 6.72267L9.21234 10.0065L18.7788 0.439958C19.3734 -0.154562 20.3426 -0.145272 20.9479 0.460085L24.2333 3.74542C24.8371 4.35078 24.8463 5.32152 24.2549 5.91294L10.2868 19.8795C9.69229 20.4725 8.72156 20.4632 8.11775 19.8578L0.454018 12.1941C-0.151339 11.5903 -0.151339 10.6103 0.454018 10.0065L3.73781 6.72267Z' fill='black'/> </svg> ");
+}
+
+button[type=submit] {
+    background: var(--primary-lighter-blue);
+    border-radius: 12px;
+    color: black;
+    font-size: .7rem;
+    width: 100%;
+    padding: 5px;
+}

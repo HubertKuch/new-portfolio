@@ -1,3 +1,5 @@
+@import "forms.css";
+
 article a {
     color: var(--primary-red);
     text-decoration: var(--primary-red) underline;
