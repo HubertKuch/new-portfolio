@@ -16,11 +16,17 @@ import react from "../assets/svg/technologies/react.svg"
 import tailwindcss from "../assets/svg/technologies/tailwindcss.svg"
 import typescript from "../assets/svg/technologies/typescript.svg"
 import rust from "../assets/svg/technologies/rust.svg"
+import docker from "../assets/svg/technologies/docker.svg"
+import hibernate from "../assets/svg/technologies/hibernate.svg"
+import spring from "../assets/svg/technologies/spring.svg"
 
 function SkillsView() {
     return (<PageLayout title={<ColorizedText content={"Skills"}/>}>
         <div>
-            Currently I use Java, PHP, MySQL, PostgreSQL, MongoDB, JavaScript with TypeScript, React, Alpine.js,
+            Currently I use Java (with Spring Boot, Hibernate etc), PHP (with my own <a
+            href="https://avocadoframework.com" target={"_blank"} rel="noreferrer">framework</a>), MySQL, PostgreSQL,
+            MongoDB, JavaScript with
+            TypeScript, React, Alpine.js,
             PicoCSS, TailwindCSS, HTML and clean CSS. Now I am learning Rust.
             <br/>
             <br/>
@@ -35,7 +41,10 @@ function SkillsView() {
             <img src={alpine} alt=""/>
             <img src={css} alt=""/>
             <img src={html} alt=""/>
+            <img src={docker} alt=""/>
             <img src={java} alt=""/>
+            <img src={spring} alt=""/>
+            <img src={hibernate} alt=""/>
             <img src={rust} alt=""/>
             <img src={js} alt=""/>
             <img src={mongodb} alt=""/>
