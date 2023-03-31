@@ -15,12 +15,13 @@ import postgresql from "../assets/svg/technologies/postgresql.svg"
 import react from "../assets/svg/technologies/react.svg"
 import tailwindcss from "../assets/svg/technologies/tailwindcss.svg"
 import typescript from "../assets/svg/technologies/typescript.svg"
+import rust from "../assets/svg/technologies/rust.svg"
 
 function SkillsView() {
     return (<PageLayout title={<ColorizedText content={"Skills"}/>}>
         <div>
             Currently I use Java, PHP, MySQL, PostgreSQL, MongoDB, JavaScript with TypeScript, React, Alpine.js,
-            PicoCSS, TailwindCSS, HTML and clean CSS.
+            PicoCSS, TailwindCSS, HTML and clean CSS. Now I am learning Rust.
             <br/>
             <br/>
             I know a lot of design pattern, apply DDD for my bigger projects, I use e2e and unit tests using JUnit
@@ -35,6 +36,7 @@ function SkillsView() {
             <img src={css} alt=""/>
             <img src={html} alt=""/>
             <img src={java} alt=""/>
+            <img src={rust} alt=""/>
             <img src={js} alt=""/>
             <img src={mongodb} alt=""/>
             <img src={mysql} alt=""/>
