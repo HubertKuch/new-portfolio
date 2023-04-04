@@ -25,7 +25,7 @@ function HobbiesView() {
             <img src={starIcon} alt="Star" className={"inline h-5"}/>
         </h2>}
     >
-        <main className={"grid gap-10"}>
+        <main className={"hobbies-view grid gap-10"}>
             <div className={"photography-container"}>
                 <h3 className={"flex text-[var(--primary-skin)] gap-2"}>
                     <img src={camera} alt="camera"/>
@@ -44,7 +44,7 @@ function HobbiesView() {
                 </div>
             </div>
 
-            <div>
+            <div className={"ukulele-container"}>
                 <h3 className={"flex justify-between text-[var(--primary-darker-red)]"}>
                     <img src={note1} alt="Music note" className={"h-5"}/>
                     <span>Playing on ukulele</span>
@@ -56,10 +56,11 @@ function HobbiesView() {
                 </div>
             </div>
 
-            <div>
-                <h3 className={"flex gap-2 text-[var(--primary-violet)]"}>
+            <div className={"books-container"}>
+                <h3 className={"flex justify-between gap-2 text-[var(--primary-violet)]"}>
                     <img src={book} alt="Book" className={"h-6"}/>
                     <span>Reading books</span>
+                    <img src={book} alt="Book" className={"h-6"}/>
                 </h3>
                 <div>
                     I love read books. They always has something unique and interested history to tell. My favorite
@@ -73,7 +74,7 @@ function HobbiesView() {
                 </div>
             </div>
 
-            <div>
+            <div className={"outdoor-container"}>
                 <h3 className={"flex justify-between gap-2 text-[var(--primary-green)]"}>
                     <img src={plant} alt=""/>
                     <span>Outdoor activities</span>

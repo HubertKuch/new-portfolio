@@ -1,6 +1,7 @@
 @import "root.css";
 @import "layouts.css";
 @import "components.css";
+@import "responsive.css";
 
 @tailwind base;
 @tailwind components;
