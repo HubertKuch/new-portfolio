@@ -23,7 +23,7 @@
     --second-font: 'Inter', sans-serif;
     --second-font-weight: 400;
 
-    --font-size: clamp(1rem, 5vw, 1.5rem);
+    --font-size: clamp(1rem, 5vw, 1.2rem);
     --heading-letter-spacing: 9%;
     --desktop-letter-spacing: -2%;
     --mobile-letter-spacing: -2%;
