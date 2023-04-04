@@ -6,6 +6,10 @@
     .page-layout > article {
         padding: 0 70px 0;
     }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 966px) {
@@ -99,5 +103,11 @@
 
     .outdoor-container {
         grid-column: 3 / 4;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
