@@ -34,17 +34,17 @@ label input:focus ~ .floating-label,
 label textarea:focus ~ .floating-label,
 label input:not(:focus):valid ~ .floating-label,
 label textarea:not(:focus):valid ~ .floating-label {
-    top: -10px;
+    top: -20px;
     left: 0;
-    font-size: 10px;
+    font-size: 13px;
     color: var(--primary-green);
 }
 
 label input:not(:focus):invalid ~ .floating-label {
     color: var(--primary-red);
-    top: -10px;
+    top: -20px;
     left: 0;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 input:focus, textarea:focus {

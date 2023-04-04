@@ -23,9 +23,6 @@ a[aria-current="page"] {
     height: 37px;
 }
 
-.photography-container {
-}
-
 .photography-container .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
@@ -45,3 +42,48 @@ a[aria-current="page"] {
     height: 100%;
     width: 100%;
 }
+
+.additional-contact {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-element {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 0 5px;
+    grid-template-areas:
+        "icon header"
+        "icon description"
+        "icon contact";
+}
+
+.contact-element__icon {
+    grid-area: icon;
+    justify-self: center;
+    height: 32px;
+}
+
+.contact-element__icon img {
+    height: 100%;
+}
+
+.contact-element__header {
+    grid-area: header;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-element__description {
+    grid-area: description;
+}
+
+.contact-element__contact {
+    grid-area: contact;
+}
+
+.contact-element__contact, .contact-element__description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
