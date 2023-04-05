@@ -39,11 +39,10 @@ function Project({
                 {tags.map(tag => <li>{tag}</li>)}
             </ul>
         </footer>
-        {isOpenModal ?
-            <Modal
-                title={"Sorry!"}
-                description={"That project has private repository. I can 😥"}
-            /> : null}
+        {isOpenModal ? <Modal
+            title={"Sorry!"}
+            description={"That project has private repository. I can't share code 😥"}
+        /> : null}
     </div>;
 }
 
