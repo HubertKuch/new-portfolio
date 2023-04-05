@@ -40,19 +40,19 @@ function ProjectsView() {
             <Project
                 name={"Kafar"}
                 desc={"Kafar is a static site for Kafar company based in the Netherlands to show their projects, information about the company, and contact."}
-                link={""}
+                link={"https://kafar.nl/"}
                 tags={["Java", "Spring Boot", "Mustache", "Docker", "JavaScript"]}
             />
             <Project
                 name={"Hamster"}
                 desc={"Hamster is a project to download files from chomikuj.pl for free using their mobile API."}
-                link={""}
+                link={"https://github.com/HubertKuch/download_manager"}
                 tags={["Java", "Spring Boot", "React", "Docker", "TypeScript", "Tailwind"]}
             />
             <Project
                 name={"OVH Automation"}
                 desc={"Automation for massive creating OVH emails on a bought domain."}
-                link={""}
+                link={"https://github.com/HubertKuch/ovh-mail-creator"}
                 tags={["Java", "Spring Boot", "Spring Shell", "OVH"]}
             />
         </div>

@@ -20,6 +20,7 @@ module.exports = {
                 "primary-yellow": "var(--primary-yellow)",
                 "primary-skin": "var(--primary-skin)",
                 "primary-darker-yellow": "var(--primary-darker-yellow)",
+                "alpha-modal": "rgba(0, 0, 0, 0.8)",
             }
         },
     },
