@@ -17,7 +17,7 @@ function Project({
                 </a>
             </div>
             <div className="name">
-                <h1>{name}</h1>
+                <h1 className={"text-xl"}>{name}</h1>
             </div>
         </header>
         <main>
@@ -26,8 +26,8 @@ function Project({
             </div>
         </main>
         <footer>
-            <ul className="tags text-sm w-full flex flex-wrap text-gray-800">
-                {tags.map(tag => <li className={"flex-1"}>{tag}</li>)}
+            <ul className="tags text-sm w-full flex flex-wrap text-gray-800 whitespace-nowrap text-center">
+                {tags.map(tag => <li>{tag}</li>)}
             </ul>
         </footer>
     </div>;
