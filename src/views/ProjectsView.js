@@ -4,7 +4,7 @@ import Project from "../components/Project";
 
 function ProjectsView() {
     return <PageLayout title={<span>My <ColorizedText content={"projects"}/></span>}>
-        <h3>Some projects I've created:</h3>
+        <h3>Main projects I've created:</h3>
         <br/>
         <div className="projects-container grid gap-5 mt-10 mb-20">
             <Project
